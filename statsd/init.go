@@ -1,6 +1,6 @@
 package statsd
 
-import "github.com/alexcesaro/statsd"
+import "gopkg.in/alexcesaro/statsd.v1"
 
 type Backend struct {
 	client *statsd.Client
